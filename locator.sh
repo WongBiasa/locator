@@ -64,7 +64,7 @@ sleep 0.03
 echo 
 
 read -p "Masukkan Ip andres:" Ip
-curl -s https://ip-api.com/$Ip
+curl -s http://ip-api.com/$Ip
 
 echo $me"===================="
 echo $ku"=   Terimakasih    ="
